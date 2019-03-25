@@ -23,7 +23,7 @@ int main(int argc, string argv[])
             }
         }
     }
-    //printf("%i\n", key);
+    // Get string from user
     string plaintext = get_string("plaintext: ");
     printf("ciphertext: ");
     for (int i = 0, j = 0; i < strlen(plaintext); i++)
